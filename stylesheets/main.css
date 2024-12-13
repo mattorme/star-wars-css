@@ -83,6 +83,54 @@ html {
   left: 65%;
 }
 
+.rock {
+  position: absolute;
+  background-color: rgb(220, 235, 250);
+  border-radius: 150px 150px 0 0;
+  z-index: 1;
+}
+
+.rock-1 {
+  width: 14px;
+  height: 7px;
+  top: 90%;
+  left: 75%;
+}
+.rock-2 {
+  width: 8px;
+  height: 4px;
+  top: 85%;
+  left: 50%;
+}
+
+.rock-3 {
+  width: 12px;
+  height: 6px;
+  top: 90%;
+  left: 25%;
+}
+
+.rock-4 {
+  width: 10px;
+  height: 5px;
+  top: 90%;
+  left: 10%;
+}
+
+.rock-5 {
+  width: 14px;
+  height: 7px;
+  top: 95%;
+  left: 80%;
+}
+
+.rock-6 {
+  width: 14px;
+  height: 7px;
+  top: 95%;
+  left: 65%;
+}
+
 .atat {
   position: absolute;
   width: 100px;
