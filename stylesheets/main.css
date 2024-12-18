@@ -7,6 +7,8 @@
 body,
 html {
   height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .background {
@@ -22,7 +24,7 @@ html {
   left: 0;
   width: 100%;
   height: 20%; /* Black section takes up 20% of the screen height */
-  background-color: rgb(43, 115, 182);
+  background-color: rgb(22, 78, 130);
 }
 
 .background::after {
@@ -32,7 +34,7 @@ html {
   left: 0;
   width: 100%;
   height: 80%; /* Blue section takes up 80% of the screen height */
-  background-color: rgb(126, 187, 248);
+  background-color: rgb(56, 136, 221);
 }
 
 .star {
@@ -84,6 +86,48 @@ html {
   left: 65%;
 }
 
+.star-7 {
+  width: 7px;
+  height: 7px;
+  top: 5%;
+  left: 95%;
+}
+
+.star-8 {
+  width: 3px;
+  height: 3px;
+  top: 35%;
+  left: 70%;
+}
+
+.star-9 {
+  width: 10px;
+  height: 10px;
+  top: 15%;
+  left: 15%;
+}
+
+.star-10 {
+  width: 6px;
+  height: 6px;
+  top: 10%;
+  left: 50%;
+}
+
+.star-11 {
+  width: 7px;
+  height: 7px;
+  top: 45%;
+  left: 35%;
+}
+
+.star-12 {
+  width: 8px;
+  height: 8px;
+  top: 45%;
+  left: 55%;
+}
+
 .moon {
   position: absolute;
   top: 20%;
@@ -102,101 +146,104 @@ html {
 
 .rock {
   position: absolute;
-  background-color: rgb(220, 235, 250);
-  border-radius: 150px 150px 0 0;
+  background-color: rgb(41, 103, 162);
+  border-radius: 0;
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
   z-index: 1;
-  animation: slide-right 5s linear infinite;
+  animation: slide-right 15s linear infinite;
 }
 
 .rock-1 {
-  width: 14px;
-  height: 7px;
-  top: 90%;
+  width: 90px;
+  height: 30px;
+  top: 85%;
   left: 75%;
 }
 
 .rock-2 {
-  width: 8px;
-  height: 4px;
-  top: 85%;
-  left: 50%;
+  width: 90px;
+  height: 30px;
+  top: 88%;
+  left: 45%;
 }
 
 .rock-3 {
-  width: 12px;
-  height: 6px;
-  top: 90%;
+  width: 90px;
+  height: 30px;
+  top: 95%;
   left: 25%;
 }
 
 .rock-4 {
-  width: 10px;
-  height: 5px;
-  top: 90%;
-  left: 10%;
+  width: 90px;
+  height: 30px;
+  top: 85%;
+  left: 5%;
 }
 
 .rock-5 {
-  width: 14px;
-  height: 7px;
-  top: 95%;
-  left: 80%;
+  width: 90px;
+  height: 30px;
+  top: 90%;
+  left: 90%;
 }
 
 .rock-6 {
-  width: 14px;
-  height: 7px;
+  width: 90px;
+  height: 30px;
   top: 95%;
   left: 65%;
 }
 
 .rock-1-off {
-  width: 14px;
-  height: 7px;
-  top: 90%;
+  width: 90px;
+  height: 30px;
+  top: 85%;
   left: -25%;
 }
+
 .rock-2-off {
-  width: 8px;
-  height: 4px;
-  top: 85%;
-  left: -50%;
+  width: 90px;
+  height: 30px;
+  top: 88%;
+  left: -55%;
 }
 
 .rock-3-off {
-  width: 12px;
-  height: 6px;
-  top: 90%;
+  width: 90px;
+  height: 30px;
+  top: 95%;
   left: -75%;
 }
 
 .rock-4-off {
-  width: 10px;
-  height: 5px;
-  top: 90%;
-  left: -90%;
+  width: 90px;
+  height: 30px;
+  top: 85%;
+  left: -95%;
 }
 
 .rock-5-off {
-  width: 14px;
-  height: 7px;
-  top: 95%;
-  left: -20%;
+  width: 90px;
+  height: 30px;
+  top: 90%;
+  left: -10%;
 }
 
 .rock-6-off {
-  width: 14px;
-  height: 7px;
+  width: 90px;
+  height: 30px;
   top: 95%;
   left: -35%;
 }
 
 .atat {
   position: absolute;
-  width: 100px;
+  width: 5%;
   height: 100px;
   bottom: 20%; /* This places the element 50px above the bottom-div */
-  left: 50%;
+  left: 47.5%;
   transform: translateX(-50%); /* This centers the element horizontally */
   color: white;
   border-radius: 50%;
