@@ -244,11 +244,30 @@ html {
   height: 100px;
   bottom: 20%; /* This places the element 50px above the bottom-div */
   left: 47.5%;
-  transform: translateX(-50%); /* This centers the element horizontally */
   color: white;
   border-radius: 50%;
   background-color: green;
   animation: walk 1s ease-in-out infinite;
+}
+
+/* Mountain */
+.mountain {
+  position: absolute;
+  border-left: 100px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 100px solid rgb(22, 78, 130);
+  z-index: 1;
+  animation: slide-right 15s linear infinite;
+}
+
+.mountain-1 {
+  bottom: 20%;
+  left: 20%;
+}
+
+.mountain-1-off {
+  bottom: 20%;
+  left: -80%;
 }
 
 /* Animations */
