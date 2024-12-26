@@ -130,11 +130,11 @@ html {
 
 .moon {
   position: absolute;
-  top: 20%;
-  left: 30%;
+  top: 15%;
+  left: 25%;
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
+  width: 220px;
+  height: 220px;
   background: linear-gradient(
     -135deg,
     rgba(255, 255, 255, 1) 0%,
@@ -151,7 +151,7 @@ html {
   border-top-left-radius: 50% 100%;
   border-top-right-radius: 50% 100%;
   z-index: 1;
-  animation: slide-right 15s linear infinite;
+  animation: slide-right 20s linear infinite;
 }
 
 .rock-1 {
@@ -238,6 +238,194 @@ html {
   left: -35%;
 }
 
+.medium-rock {
+  position: absolute;
+  background-color: rgb(41, 103, 162);
+  border-radius: 0;
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  z-index: 1;
+  animation: slide-right 20s linear infinite;
+}
+
+.medium-rock-1 {
+  width: 90px;
+  height: 15px;
+  top: 82.5%;
+  left: 60%;
+}
+
+.medium-rock-2 {
+  width: 90px;
+  height: 15px;
+  top: 95%;
+  left: 36%;
+}
+
+.medium-rock-3 {
+  width: 90px;
+  height: 15px;
+  top: 95%;
+  left: 15%;
+}
+
+.medium-rock-4 {
+  width: 90px;
+  height: 15px;
+  top: 84%;
+  left: 24%;
+}
+
+.medium-rock-5 {
+  width: 90px;
+  height: 15px;
+  top: 85%;
+  left: 85%;
+}
+
+.medium-rock-6 {
+  width: 90px;
+  height: 15px;
+  top: 91%;
+  left: 56%;
+}
+
+.medium-rock-1-off {
+  width: 90px;
+  height: 15px;
+  top: 82.5%;
+  left: -40%;
+}
+
+.medium-rock-2-off {
+  width: 90px;
+  height: 15px;
+  top: 95%;
+  left: -64%;
+}
+
+.medium-rock-3-off {
+  width: 90px;
+  height: 15px;
+  top: 95%;
+  left: -85%;
+}
+
+.medium-rock-4-off {
+  width: 90px;
+  height: 15px;
+  top: 84%;
+  left: -76%;
+}
+
+.medium-rock-5-off {
+  width: 90px;
+  height: 15px;
+  top: 85%;
+  left: -15%;
+}
+
+.medium-rock-6-off {
+  width: 90px;
+  height: 15px;
+  top: 91%;
+  left: -44%;
+}
+
+.small-rock {
+  position: absolute;
+  background-color: rgb(41, 103, 162);
+  border-radius: 0;
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  z-index: 1;
+  animation: slide-right 20s linear infinite;
+}
+
+.small-rock-1 {
+  width: 50px;
+  height: 10px;
+  top: 95%;
+  left: 50%;
+}
+
+.small-rock-2 {
+  width: 50px;
+  height: 10px;
+  top: 90%;
+  left: 35%;
+}
+
+.small-rock-3 {
+  width: 50px;
+  height: 10px;
+  top: 90%;
+  left: 18%;
+}
+
+.small-rock-4 {
+  width: 50px;
+  height: 10px;
+  top: 84%;
+  left: 14%;
+}
+
+.small-rock-5 {
+  width: 50px;
+  height: 10px;
+  top: 95%;
+  left: 80%;
+}
+
+.small-rock-6 {
+  width: 50px;
+  height: 10px;
+  top: 85%;
+  left: 55%;
+}
+
+.small-rock-1-off {
+  width: 50px;
+  height: 10px;
+  top: 95%;
+  left: -50%;
+}
+
+.small-rock-2-off {
+  width: 50px;
+  height: 10px;
+  top: 90%;
+  left: -65%;
+}
+
+.small-rock-3-off {
+  width: 50px;
+  height: 10px;
+  top: 90%;
+  left: -82%;
+}
+
+.small-rock-4-off {
+  width: 50px;
+  height: 10px;
+  top: 84%;
+  left: -86%;
+}
+
+.small-rock-5-off {
+  width: 50px;
+  height: 10px;
+  top: 95%;
+  left: -20%;
+}
+
+.small-rock-6-off {
+  width: 50px;
+  height: 10px;
+  top: 85%;
+  left: -45%;
+}
+
 .atat {
   position: absolute;
   width: 5%;
@@ -248,6 +436,7 @@ html {
   border-radius: 50%;
   background-color: green;
   animation: walk 1s ease-in-out infinite;
+  z-index: 2;
 }
 
 /* Mountain */
@@ -256,18 +445,65 @@ html {
   border-left: 100px solid transparent;
   border-right: 150px solid transparent;
   border-bottom: 100px solid rgb(22, 78, 130);
-  z-index: 1;
-  animation: slide-right 15s linear infinite;
+  z-index: 3;
+  animation: slide-right 20s linear infinite;
 }
 
 .mountain-1 {
   bottom: 20%;
-  left: 20%;
+  left: 0%;
 }
 
 .mountain-1-off {
   bottom: 20%;
-  left: -80%;
+  left: -13%;
+}
+
+.mountain-2 {
+  bottom: 20%;
+  left: 87%;
+}
+
+.mountain-2-off {
+  bottom: 20%;
+  left: -100%;
+}
+
+.mountain-shade {
+  position: absolute;
+  border-left: 100px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 100px solid rgb(22, 78, 130);
+  z-index: 1;
+  animation: slide-right 15s linear infinite;
+}
+
+.mountain-1-shade {
+  bottom: 22.5%;
+  left: 22.5%;
+}
+
+.mountain-1-shade-off {
+  bottom: 22.5%;
+  left: -77.5%;
+}
+
+.ice-mountain {
+  position: absolute;
+  border-left: 100px solid transparent;
+  border-right: 300px solid transparent;
+  border-bottom: 400px solid rgb(161, 206, 251);
+  z-index: 2;
+  bottom: 20%;
+}
+
+.ice-mountain-shade {
+  position: absolute;
+  border-left: 100px solid transparent;
+  border-right: 1000px solid transparent;
+  border-bottom: 400px solid rgb(212, 225, 238);
+  z-index: 1;
+  bottom: 20%;
 }
 
 /* Animations */
